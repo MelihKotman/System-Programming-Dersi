@@ -7,3 +7,5 @@ include_directories(.)
 
 add_executable(System_Programming_Dersi
         Lab1-2/Lab2.c)
+add_executable(Lab3-1 Lab-3/Lab3-1.c)
+add_executable(Lab3-2 Lab-3/Lab3-2.c)

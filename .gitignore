@@ -1,6 +1,8 @@
 # Prerequisites
 *.d
-
+*.xml
+.name
+*.iml
 # Object files
 *.o
 *.ko
