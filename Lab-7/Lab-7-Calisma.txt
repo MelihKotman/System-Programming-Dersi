@@ -1,0 +1,36 @@
+Sistem Programlama
+Ders 10
+Bu çalışmada derste gördüğümüz standart I/O kütüphanesi fonksiyonları (stdio.h) kullanılacaktır. Başka bir kütüphane veya fonksiyon kullanmayınız.
+Yapılacak adımlar
+
+•Aşağıda belirtilen isimde bir klasör oluşturunuz:
+    "İsminiz-Soyisminiz-Lab7"
+•Yeni oluşturduğunuz klasöre gidiniz.
+•Aşağıda belirtilen özelliklere sahip bir C programı yazınız.
+ - Programınızın kaynak dosyasının ismi "prog8.c" olmalı.
+•Programınız argüman olarak bir veya daha fazla dosya ismi alacaktır. Bu dosyaları önceden oluşturmalı ve içerisine metin girmelisiniz.
+ - Hiç dosya ismi verilemez ise, programınız anlamlı bir hata mesajı vererek sonlanacaktır.
+•Programınız verilen dosyaları teker teker açmaya çalışacaktır.
+ - Dosyalar açılamaz ise, programınız anlamlı bir hata mesajı vererek sonlanacaktır.
+•Programınız ayrıca verilen dosya isimlerinin her birinin isminin sonunda ".ist" ekleyip yeni dosyalar oluşturacaktır.
+•Programınız açılan dosyalardaki metin ile ilgili aşağıda belirtilen istatistikleri hesaplayacak ve oluşturulan dosyalara yazacaktır:
+
+ - Harf sayısı
+ - Kelime sayısı
+ - Cümle sayısı
+
+•Programınız, incelenen dosyaların ismini ve hesaplanan istatistikleri yeni oluşturulan dosyalara yazacaktır.
+•Son olarak programınız açılan dosyayı kapatarak sonlanacaktır.
+
+Örnek: Girdi olarak verilen "input.txt" dosyasının içeriği aşağıdaki gibi ise:
+
+Bu bir metin dosyasidir. Benim tarafimdan yazilmistir.
+
+Programın oluşturduğu "input.txt.ist" dosyası aşağıdaki bilgileri içermelidir:
+
+Incelenen dosya: input.txt
+Harf sayisi: 46
+Kelime sayisi: 7
+Cumle sayisi: 2
+
+Not: Verilen dosyalar sadece İngiliz alfabesinde bulunan küçük/büyük harfler ve basit noktalama işaretlerini (. , ? !) içerdiğini varsayanız. Cümleler yazım kurallarına uygun olacaktır.
